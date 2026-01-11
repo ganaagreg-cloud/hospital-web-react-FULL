@@ -2,7 +2,7 @@ import { useState } from "react";
 import AppRoutes from "./routes/Routes.jsx";
 import AppShell from "./components/layout/AppShell.jsx";
 import AppointmentModal from "./components/AppointmentModal.jsx";
-
+import React from "react";
 export default function App() {
   const [open, setOpen] = useState(false);
 
