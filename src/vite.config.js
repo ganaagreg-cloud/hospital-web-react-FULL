@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/hospital-web-react-FULL/" // 👈 MUST match your repo name
+  base: "/hospital-web-react-FULL/"
 });
